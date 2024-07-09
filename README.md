@@ -6,12 +6,6 @@ Build a model to generate automated responses to customer queries.
 ## Dataset
 We used the [Customer Support Responses](https://huggingface.co/datasets/Kaludi/Customer-Support-Responses) dataset from Hugging Face.
 
-## Tasks
-1. *Explore and preprocess the dataset*
-2. *Train a sequence-to-sequence (seq2seq) model or use a transformer-based model like GPT-3 for generating responses*
-3. *Fine-tune the model for coherence and relevance*
-4. *Evaluate the generated responses for quality and appropriateness*
-
 ## 1. Dataset Exploration and Preprocessing
 ### Dataset Overview
 The dataset contains paired customer queries and support responses. Each entry in the dataset includes:
@@ -20,14 +14,12 @@ The dataset contains paired customer queries and support responses. Each entry i
 
 ### Data Preprocessing
 The following preprocessing steps were applied to the dataset:
-1. *Cleaning*: Removed any HTML tags, special characters, and unnecessary whitespace.
-2. *Tokenization*: Split the text into tokens.
-3. *Padding/Truncation*: Padded or truncated the sequences to a fixed length to ensure uniformity in the input data.
-4. *Encoding*: Converted the text data into numerical format using tokenizer compatible with the model.
+1. *Tokenization*: Split the text into tokens.
+2. *Padding/Truncation*: Padded or truncated the sequences to a fixed length to ensure uniformity in the input data.
 
 ## 2. Model Training
 ### Model Selection
-We chose a transformer-based model for generating responses. Specifically, we utilized the GPT-3 model architecture for its robust language generation capabilities.
+We chose a transformer-based model for generating responses. Specifically, we utilized that model architecture for its robust language generation capabilities.
 
 ### Training Procedure
 1. *Initialization*: Initialized the model with pre-trained weights.
@@ -35,7 +27,7 @@ We chose a transformer-based model for generating responses. Specifically, we ut
 3. *Hyperparameters*: Tuned the hyperparameters including learning rate, batch size, and number of epochs to optimize model performance.
 
 ### Training Environment
-- *Framework*: PyTorch / TensorFlow
+- *Framework*: PyTorch 
 - *Hardware*: NVIDIA GPU
 - *Software*: Jupyter Notebook, Hugging Face Transformers library
 
