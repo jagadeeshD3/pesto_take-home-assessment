@@ -19,41 +19,24 @@ The following preprocessing steps were applied to the dataset:
 
 ## 2. Model Training
 ### Model Selection
-We chose a transformer-based model for generating responses. Specifically, we utilized that model architecture for its robust language generation capabilities.
-
-### Training Procedure
-1. *Initialization*: Initialized the model with pre-trained weights.
-2. *Fine-tuning*: Fine-tuned the model on the preprocessed dataset using supervised learning. The training involved minimizing the cross-entropy loss between the predicted and actual responses.
-3. *Hyperparameters*: Tuned the hyperparameters including learning rate, batch size, and number of epochs to optimize model performance.
+We chose a google's flan-T5 base model for generating responses. Specifically, we utilized that model architecture for its robust language generation capabilities.
 
 ### Training Environment
 - *Framework*: PyTorch 
-- *Hardware*: NVIDIA GPU
+- *Hardware*: T4 GPU
 - *Software*: Jupyter Notebook, Hugging Face Transformers library
 
-## 3. Model Fine-tuning
-After initial training, we fine-tuned the model further to improve the coherence and relevance of the generated responses. This involved:
-- *Learning Rate Adjustment*: Reduced the learning rate to prevent overfitting and enhance fine-tuning.
-- *Data Augmentation*: Introduced slight variations in the input data to improve model generalization.
-- *Early Stopping*: Implemented early stopping based on validation loss to prevent overfitting.
-
-## 4. Evaluation
+## 5. Evaluation
 ### Evaluation Metrics
 To assess the quality and appropriateness of the generated responses, we used the following metrics:
 - *BLEU Score*: Evaluated the overlap between the generated and actual responses.
-- *ROUGE Score*: Measured the recall and precision of the generated responses.
 - *Human Evaluation*: Conducted human evaluations to rate the relevance and coherence of the responses.
 
 ### Results
-The model demonstrated the following performance on the evaluation metrics:
-- *BLEU Score*: X.XX
-- *ROUGE Score*: X.XX
-- *Human Evaluation*: Average rating of X.XX/5.00 for relevance and coherence.
+![W B Chart 09_07_2024, 01_02_05](https://github.com/jagadeeshD3/pesto_take-home-assessment/assets/80314569/6fdc90f9-5b16-4e13-9393-700c88c3bf99)
+![W B Chart 09_07_2024, 01_01_48](https://github.com/jagadeeshD3/pesto_take-home-assessment/assets/80314569/c3647efb-9b70-4165-b360-e4caff6c7c3a)
+
 
 ## Conclusion
-The automated response generation model successfully generates coherent and relevant responses to customer queries. The use of a transformer-based model and fine-tuning techniques contributed to the high-quality performance of the model.
+The automated response generation model successfully generates coherent and relevant responses to customer queries. The use of a goole's flan-T5 base and fine-tuning techniques contributed to the high-quality performance of the model.
 
-## Future Work
-- *Expand Dataset*: Include more diverse customer queries and responses to enhance model robustness.
-- *Model Optimization*: Experiment with different model architectures and hyperparameters to further improve performance.
-- *Deployment*: Implement the model in a real-world customer support system for further validation.
