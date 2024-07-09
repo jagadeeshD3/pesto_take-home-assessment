@@ -33,8 +33,8 @@ To assess the quality and appropriateness of the generated responses, we used th
 - *Human Evaluation*: Conducted human evaluations to rate the relevance and coherence of the responses.
 
 ### Results
-![W B Chart 09_07_2024, 01_02_05](https://github.com/jagadeeshD3/pesto_take-home-assessment/assets/80314569/6fdc90f9-5b16-4e13-9393-700c88c3bf99)
-![W B Chart 09_07_2024, 01_01_48](https://github.com/jagadeeshD3/pesto_take-home-assessment/assets/80314569/c3647efb-9b70-4165-b360-e4caff6c7c3a)
+![W B Chart 09_07_2024, 22_48_33](https://github.com/jagadeeshD3/pesto_take-home-assessment/assets/80314569/415c10d4-a232-4ef0-b3dc-a3be2ea3dc89)
+![W B Chart 09_07_2024, 22_48_50](https://github.com/jagadeeshD3/pesto_take-home-assessment/assets/80314569/ebbb6b35-2a45-4779-ac40-57539522d337)
 
 
 ## Conclusion
